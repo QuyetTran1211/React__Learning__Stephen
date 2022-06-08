@@ -18,8 +18,8 @@ const items = [
 
 export default () => {
   return (
-    <h1>
+    <div>
       <Accordion items={items} />
-    </h1>
+    </div>
   );
 };
