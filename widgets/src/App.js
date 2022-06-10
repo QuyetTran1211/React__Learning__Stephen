@@ -4,6 +4,7 @@ import Search from './compponents/Search';
 import Dropdown from './compponents/Dropdown';
 import Translate from './compponents/Translate';
 import Route from './compponents/Route';
+import Header from './compponents/Header';
 
 const items = [
   {
@@ -69,7 +70,7 @@ export default () => {
       {showSearch()}
       {showDropdown()}
       {showTranslate()} */}
-
+      <Header />
       <Route path="/">
         <Accordion items={items} />
       </Route>
